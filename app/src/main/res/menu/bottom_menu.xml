@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Water"
+        android:title="Water"
+        android:icon="@drawable/baseline_water_drop_24"/>
+
+    <item
+        android:id="@+id/Food"
+        android:title="Food"
+        android:icon="@drawable/baseline_food_bank_24"
+        />
+
+
+</menu>

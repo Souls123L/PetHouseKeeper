@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- 选择时间按钮 -->
+    <Button
+        android:id="@+id/selectTimeNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Notification Time" />
+
+    <!-- 设置通知按钮 -->
+    <Button
+        android:id="@+id/setNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Notification"
+        android:layout_below="@id/selectTimeNotification"
+        android:layout_marginTop="16dp"/>
+
+    <!-- 取消通知按钮 -->
+    <Button
+        android:id="@+id/cancelNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Notification"
+        android:layout_below="@id/setNotification"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

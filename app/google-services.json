@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "881311223936",
+    "project_id": "pet-housekeeper-photo",
+    "storage_bucket": "pet-housekeeper-photo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881311223936:android:7c3fc8ed448ef623f29665",
+        "android_client_info": {
+          "package_name": "com.example.pethousekeeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2MlMYhmWIeDJomReqKWvEaWD5abjujVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

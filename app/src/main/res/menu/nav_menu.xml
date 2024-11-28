@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    android:checkableBehavior="single">
+
+
+
+    <group>
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About Us"/>
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/baseline_app_settings_alt_24"
+            android:title="Setting"/>
+
+
+
+    </group>
+
+    <item android:title="Workspaces">
+
+        <menu>
+
+            <group>
+                <item
+                    android:id="@+id/Gallery"
+                    android:title="Gallary"
+                    android:icon="@drawable/baseline_photo"/>
+
+                <item
+                    android:id="@+id/Calculator"
+                    android:title="Calculator"
+                    android:icon="@drawable/baseline_calculate"
+                    />
+
+                <item
+                    android:id="@+id/Alarm"
+                    android:title="Alarm"
+                    android:icon="@drawable/baseline_alarm_24" />
+                <item
+                    android:id="@+id/Notes"
+                    android:title="Notes"
+                    android:icon="@drawable/baseline_event_note_24" />
+
+                <item
+                    android:id="@+id/Maps"
+                    android:title="Maps"
+                    android:icon="@drawable/baseline_map_24" />
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="Logout">
+
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>
